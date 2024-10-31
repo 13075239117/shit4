@@ -1,0 +1,26 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "retry": "重试",
+    "search": "搜索",
+    "noResults": "未找到结果"
+  },
+  "auth": {
+    "login": "登录",
+    "register": "注册",
+    "logout": "退出登录",
+    "email": "邮箱",
+    "password": "密码",
+    "fullName": "姓名"
+  },
+  "files": {
+    "title": "云存储",
+    "newFolder": "新建文件夹",
+    "upload": "上传",
+    "delete": "删除",
+    "rename": "重命名",
+    "size": "大小",
+    "lastModified": "最后修改"
+  }
+}

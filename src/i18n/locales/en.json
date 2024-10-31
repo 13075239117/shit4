@@ -1,0 +1,26 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "search": "Search",
+    "noResults": "No results found"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full Name"
+  },
+  "files": {
+    "title": "Cloud Storage",
+    "newFolder": "New Folder",
+    "upload": "Upload",
+    "delete": "Delete",
+    "rename": "Rename",
+    "size": "Size",
+    "lastModified": "Last Modified"
+  }
+}
