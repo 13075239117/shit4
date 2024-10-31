@@ -28,7 +28,7 @@ const PaymentModal: React.FC<PaymentModalProps> = ({
     setIsPaying(true);
     await new Promise(resolve => setTimeout(resolve, 2000));
     setIsSuccess(true);
-    
+    await new Promise(resolve => setTimeout(resolve, 1000));
     const downloadUrl = `https://api.example.com/download/${file.id}`;
     
     dispatch(addPurchase({
@@ -38,9 +38,10 @@ const PaymentModal: React.FC<PaymentModalProps> = ({
       price: file.price || 99,
       downloadUrl
     }));
-    
+    setIsPaying(false);
+    setIsSuccess(false);
     await new Promise(resolve => setTimeout(resolve, 1000));
-    onSuccess(downloadUrl);
+    // onSuccess(downloadUrl);
   };
 
   // If already purchased, show download button directly
